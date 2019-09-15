@@ -1,0 +1,27 @@
+h1 {
+   color: white;
+   background-color: blue;
+   border: 1px solid black;
+   padding-left: 10px;
+}
+body {
+  font: normal normal 16px/1.4 arial;
+}
+
+/* Todos los elementos con atributo "data-A" tendrán el texto en rojo. Son elementos de origen animal */
+
+[data-A] {
+   color: red;
+}
+
+/* Todos los elementos con atributo "data-B" tendrán el texto en verde. Son elementos de origen vegetal */
+
+[data-B] {
+   color: green;
+}
+
+/* Todos los elementos con atributo "data-C" tendrán el texto en azul. Son elementos de origen químico */
+
+[data-C] {
+   color: blue;
+}
